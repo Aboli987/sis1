@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Stud"
+            android:icon="@drawable/ic_stud_details"
+            android:title="Student Details" />
+        <item
+            android:id="@+id/nav_addInfo"
+            android:icon="@drawable/ic_addr_info"
+            android:title="Address Information" />
+        <item
+            android:id="@+id/nav_parent"
+            android:icon="@drawable/ic_parent_details"
+            android:title="Academics Details" />
+        <item
+            android:id="@+id/nav_academics"
+            android:icon="@drawable/ic_acad_details"
+            android:title="Parents Details" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Report" >
+        <menu>
+        <item
+                android:id="@+id/nav_attendance"
+                android:icon="@drawable/ic_atten_report"
+                android:title="Attendance Report" />
+            <item
+                android:id="@+id/nav_testreport"
+                android:icon="@drawable/ic_test_report"
+                android:title="Test Report" />
+        </menu>
+        </item>
+
+    </group>
+</menu>

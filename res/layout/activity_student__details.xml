@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Details">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/editTextAdmission_no"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Admission No"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <EditText
+            android:id="@+id/editTextAdmission_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Admission year"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="303dp" />
+
+
+        <Spinner
+            android:id="@+id/spinnerAdmission_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/add_types"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+
+
+        <Button
+            android:text="Update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editClass"
+            android:id="@+id/UpdateButton" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
